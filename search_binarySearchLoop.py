@@ -1,7 +1,7 @@
 def binary_search(array, target, start, end):
     while start <= end:
         mid = (start + end) // 2
-        if array[ id] == target:
+        if array[id] == target:
             return mid
         elif array[mid] > target:
             end = mid - 1
